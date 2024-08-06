@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     margin: 0;
     padding: 0;
@@ -64,3 +65,71 @@ textarea{
 #clear, #delete, #percent{
     background-color:#a5a5a5 ;
 }
+=======
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'VT323','sans serif';
+    background-color: #312f2f;
+}
+#container{
+    height: 450px;
+    width: 300px;
+    background-color: #161717;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+h1{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+textarea{
+    border-radius: 20px;
+    border: 10px soild #333333 ;
+    height: 40px;
+    width: 285px;
+    color: white;
+    background-color: #161717;
+    text-align: right;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-right: 10px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btn,#equal,#clear,#delete{
+    background-color:#333333 ;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    margin: 5px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#zero{
+    width: 100px;
+    border-radius: 30px;
+    justify-content: left;
+    padding-left: 20px;
+}
+
+#divide, #multiply, #subtract, #add, #equal{
+    background-color: #ff9f0a;
+}
+#clear, #delete, #percent{
+    background-color:#a5a5a5 ;
+}
+>>>>>>> origin/main
